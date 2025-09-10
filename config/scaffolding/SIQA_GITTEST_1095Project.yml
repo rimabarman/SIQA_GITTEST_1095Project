@@ -48,6 +48,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.siqa_gittest_1095.integrations:EdgeFlowserviceWithExistingEdS
+  packages:
+  - name: SIQA_GITTEST_1095Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
 - serviceName: project.siqa_gittest_1095.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_GITTEST_1095Project
@@ -73,10 +85,6 @@ services:
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.math:divideInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2070
-- serviceName: pub.math:addInts
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
